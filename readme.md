@@ -70,7 +70,14 @@ You can package the tool into a standalone executable for your platform.
     ```
 This command uses `esbuild` to bundle the application and then `pkg` to create executables for Linux, macOS, and Windows in the `dist/` directory.
 
-## 8. Data Collected by the MCMC Nexus App
+## 8. Credits
+
+This tool relies on the following external services and is inspired by the original application:
+
+*   **IP and ISP Information**: Provided by the free and open-source [ip.sb API](https://ip.sb/).
+*   **Original Application**: This CLI is an unofficial alternative to the official [MCMC Nexus App on the Google Play Store](https://play.google.com/store/apps/details?id=gov.mcmc.nexus&hl=en&pli=1).
+
+## 9. Data Collected by the MCMC Nexus App
 
 Based on analysis of the official app's network traffic, a significant amount of data is collected during a test cycle and sent to their servers. A sample of this data can be found in the [`sample_surveyor_collection_mcmc.json`](sample_surveyor_collection_mcmc.json) file in this repository. The data is typically sent to an endpoint like `https://mcmc-my.mycoveragechecker.com/SurveyorCollection/v1/{id}`.
 
