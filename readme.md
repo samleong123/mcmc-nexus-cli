@@ -23,7 +23,8 @@ This CLI tool was developed as an alternative for users on such devices. By reve
 *   Configurable duration for download/upload tests.
 *   Clean, color-coded output with progress bars.
 *   Builds into a single, standalone executable for Windows, macOS, and Linux.
-<img width="793" height="959" alt="Screenshot 2025-07-20 at 17 18 54" src="https://github.com/user-attachments/assets/52f8164f-67e2-49bf-bf58-a102ee4e4bc1" />
+
+![Screenshot.png](https://i.imgur.com/cKF7Jpi.png)
 
 ## 5. Installation
 
