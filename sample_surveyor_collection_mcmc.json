@@ -1,0 +1,206 @@
+{
+  "installation_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+  "operator_id": 842,
+  "os_platform": "android",
+  "os_version": "17",
+  "handset_manufacturer": "Synth-Mobile",
+  "handset_model": "Vision Pro X",
+  "app_version": "2.1.0",
+  "sim_mcc": 234,
+  "sim_mnc": 15,
+  "sim_carriername": "QuantumNet",
+  "sim_slot_count": 2,
+  "points": [
+    {
+      "uid": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+      "time": 1789456123456,
+      "timeoffset": -18000000,
+      "type": "timer",
+      "session_id": 1789456000000,
+      "tenancy_id": 1,
+      "is_wifi_calling_active": false,
+      "screen_on": true,
+      "network_operator_name": "QuantumNet",
+      "is_roaming": false,
+      "is_vpn_enabled": false,
+      "is_using_carrier_aggregation": true,
+      "battery": {
+        "plugged": "none",
+        "level": 88,
+        "state": "discharging",
+        "health": "good",
+        "temperature": 320
+      },
+      "data": {
+        "mobile_state": "connected",
+        "wifi_state": "disconnected",
+        "nr_state": "CONNECTED"
+      },
+      "detected_cells": [
+        {
+          "type": "serving",
+          "technology": "nr",
+          "cid": 1234567,
+          "tac": 54321,
+          "pci": 101,
+          "mcc": 234,
+          "mnc": 15,
+          "signal": -95,
+          "rsrq": -12,
+          "snr": 15,
+          "arfcn": 632544,
+          "timing_advance": 1,
+          "bandwidth": 20000,
+          "bands": [78]
+        }
+      ],
+      "wifi_in_range": []
+    },
+    {
+      "uid": "b2c3d4e5-f6a7-8901-2345-67890abcdef1",
+      "time": 1789456183456,
+      "timeoffset": -18000000,
+      "type": "downloadtest",
+      "session_id": 1789456000000,
+      "tenancy_id": 1,
+      "service_state": "in_service",
+      "is_wifi_calling_active": false,
+      "screen_on": true,
+      "network_operator_name": "QuantumNet",
+      "is_roaming": false,
+      "duplex_mode": "fdd",
+      "is_vpn_enabled": false,
+      "is_using_carrier_aggregation": true,
+      "battery": {
+        "plugged": "none",
+        "level": 87,
+        "state": "discharging",
+        "health": "good",
+        "temperature": 325
+      },
+      "data": {
+        "mobile_state": "connected",
+        "wifi_state": "disconnected",
+        "nr_state": "CONNECTED"
+      },
+      "location_environment": "indoors",
+      "downloadtest": {
+        "url": "https://example-server.com/files/100mb.bin",
+        "size": 104857600,
+        "duration": 8240,
+        "rate": 101748240,
+        "max_rate": 125000000,
+        "technology": "nr",
+        "multithreaded": true,
+        "points": [
+          {
+            "elapsed": 1000,
+            "size": 12500000,
+            "rate": 100000000
+          },
+          {
+            "elapsed": 2000,
+            "size": 26000000,
+            "rate": 108000000
+          }
+        ],
+        "is_wifi_connected": false,
+        "public_ip": "88.77.66.55"
+      },
+      "test_cycle_uid": "c3d4e5f6-a7b8-c9d0-e1f2-g3h4i5j6k7l8"
+    },
+    {
+      "uid": "c3d4e5f6-a7b8-9012-3456-7890abcdef23",
+      "time": 1789456243456,
+      "timeoffset": -18000000,
+      "type": "uploadtest",
+      "session_id": 1789456000000,
+      "tenancy_id": 1,
+      "service_state": "in_service",
+      "is_wifi_calling_active": false,
+      "screen_on": true,
+      "network_operator_name": "QuantumNet",
+      "is_roaming": false,
+      "duplex_mode": "fdd",
+      "is_vpn_enabled": false,
+      "is_using_carrier_aggregation": true,
+      "battery": {
+        "plugged": "none",
+        "level": 86,
+        "state": "discharging",
+        "health": "good",
+        "temperature": 330
+      },
+      "data": {
+        "mobile_state": "connected",
+        "wifi_state": "disconnected",
+        "nr_state": "CONNECTED"
+      },
+      "location_environment": "indoors",
+      "uploadtest": {
+        "url": "https://example-server.com/upload",
+        "size": 20971520,
+        "duration": 4150,
+        "rate": 40578120,
+        "max_rate": 52000000,
+        "technology": "nr",
+        "multithreaded": true,
+        "points": [
+          {
+            "elapsed": 1000,
+            "size": 5120000,
+            "rate": 40960000
+          },
+          {
+            "elapsed": 2000,
+            "size": 10340000,
+            "rate": 41760000
+          }
+        ],
+        "is_wifi_connected": false,
+        "public_ip": "88.77.66.55"
+      },
+      "test_cycle_uid": "c3d4e5f6-a7b8-c9d0-e1f2-g3h4i5j6k7l8"
+    },
+    {
+      "uid": "d4e5f6a7-b8c9-0123-4567-890abcdef345",
+      "time": 1789456303456,
+      "timeoffset": -18000000,
+      "type": "pingtest",
+      "session_id": 1789456000000,
+      "tenancy_id": 1,
+      "service_state": "in_service",
+      "is_wifi_calling_active": false,
+      "screen_on": true,
+      "network_operator_name": "QuantumNet",
+      "is_roaming": false,
+      "duplex_mode": "fdd",
+      "is_vpn_enabled": false,
+      "is_using_carrier_aggregation": true,
+      "battery": {
+        "plugged": "usb",
+        "level": 86,
+        "state": "charging",
+        "health": "good",
+        "temperature": 315
+      },
+      "data": {
+        "mobile_state": "connected",
+        "wifi_state": "disconnected",
+        "nr_state": "CONNECTED"
+      },
+      "location_environment": "indoors",
+      "pingtest": {
+        "url": "https://ping.example.com/latency",
+        "ping": 22,
+        "jitter": 4,
+        "technology": "nr",
+        "min_ping": 18,
+        "is_wifi_connected": false,
+        "public_ip": "88.77.66.55"
+      },
+      "test_cycle_uid": "c3d4e5f6-a7b8-c9d0-e1f2-g3h4i5j6k7l8"
+    }
+  ],
+  "surveys": []
+}
