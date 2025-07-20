@@ -8,7 +8,7 @@
   "scripts": {
     "speedtest": "node speedtest.js",
     "prebuild": "esbuild speedtest.js --bundle --platform=node --outfile=speedtest-bundle.js",
-    "build": "pkg speedtest-bundle.js --targets node18-linux-x64,node18-macos-x64,node18-win-x64 --out-path dist",
+    "build": "pkg speedtest-bundle.js --targets node18-linux-x64,node18-macos-x64,node18-win-x64 -o dist/mcmc-nexus-cli ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
